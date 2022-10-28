@@ -113,13 +113,7 @@ body{
 }
 @keyframes colorchange{
   0%{
-    color: greenyellow;
-  }
-  25%{
-    color: blue;
-  }
-  50%{
-    color: white;
+    color: #45ff2f;
   }
   100%{
     color: black;
