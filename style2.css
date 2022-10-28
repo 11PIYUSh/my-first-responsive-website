@@ -113,7 +113,10 @@ body{
 }
 @keyframes colorchange{
   0%{
-    color: #45ff2f;
+    color: #ff00bf;
+  }
+  25%{
+    color: #ff0040;
   }
   100%{
     color: black;
