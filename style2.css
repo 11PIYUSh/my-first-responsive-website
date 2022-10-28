@@ -108,6 +108,23 @@ body{
     color: #000;
 }
 
+.colourchange{
+  animation: colorchange 2s infinite;
+}
+@keyframes colorchange{
+  0%{
+    color: greenyellow;
+  }
+  25%{
+    color: blue;
+  }
+  50%{
+    color: white;
+  }
+  100%{
+    color: black;
+  }
+}
 
 @media screen and (min-width: 992px){
     .about-wrapper{
