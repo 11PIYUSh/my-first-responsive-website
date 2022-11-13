@@ -159,6 +159,20 @@ header ul li a:hover{
   object-fit: cover;
 }
 
+footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color: brown;
+	color: white;
+	text-align: center;
+}
+
+footer a{
+  list-style: none;
+}
+
 .colourchange{
   animation: colorchange 2s infinite;
 }
