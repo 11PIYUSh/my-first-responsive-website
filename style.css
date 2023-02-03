@@ -1,26 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins: 100, 200, 300, 400, 500, 600, 700, 800, 900');
-*{
+@import url("https://fonts.googleapis.com/css?family=Poppins: 100, 200, 300, 400, 500, 600, 700, 800, 900");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'poppins'sans-serif;
+  font-family: "poppins" sans-serif;
 }
 
-#loading{
+#loading {
   position: fixed;
   width: 100%;
   height: 100vh;
-  background: rgb(255, 0, 170)
-  url("");
+  background: rgb(255, 0, 170) url("");
   z-index: 99999;
 }
 
-.banner{
+.banner {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.banner .box{
+.banner .box {
   position: relative;
   height: 80vh;
 }
@@ -29,7 +28,7 @@
   background: #ff0;
 }*/
 
-header{
+header {
   position: absolute;
   top: 0;
   left: 0;
@@ -40,7 +39,7 @@ header{
   align-items: center;
 }
 
-.logo{
+.logo {
   position: relative;
   font-style: 1.4em;
   color: #111;
@@ -48,45 +47,45 @@ header{
   text-decoration: none;
 }
 
-header ul{
+header ul {
   display: flex;
 }
 
-header ul li{
+header ul li {
   list-style: none;
   margin-left: 30px;
 }
 
-header ul li a{
+header ul li a {
   text-decoration: none;
   font-weight: 500;
   color: #adbdbd;
   letter-spacing: 1px;
 }
 
-header ul li a:hover{
+header ul li a:hover {
   color: #333;
 }
 
-.content{
+.content {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 60px;
 }
 
-.content h2{
+.content h2 {
   font-size: 4em;
   color: black;
 }
 
-.content p{
+.content p {
   font-size: 2.1em;
   color: #000;
   line-height: 1.8em;
 }
 
-.btn{
+.btn {
   display: inline-block;
   font-size: 1.1em;
   margin-top: 20px;
@@ -99,13 +98,13 @@ header ul li a:hover{
   transition: 0.5s;
 }
 
-.btn:hover{
+.btn:hover {
   background: #333;
   color: #fff;
-  letter-spacing: 2px
+  letter-spacing: 2px;
 }
 
-.sci{
+.sci {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -114,22 +113,22 @@ header ul li a:hover{
   right: 60px;
 }
 
-.sci h3{
+.sci h3 {
   font-weight: 500;
   color: #bdbdbd;
   letter-spacing: 1px;
 }
 
-.sci li{
+.sci li {
   list-style: none;
   margin-left: 20px;
 }
 
-.sci li img{
+.sci li img {
   max-width: 30px;
 }
 
-.images{
+.images {
   display: flex;
   flex-wrap: wrap;
 }
@@ -143,10 +142,7 @@ header ul li a:hover{
   background: #ff0037;
 }
 
-
-
-
-.images .imgBx img{
+.images .imgBx img {
   position: absolute;
   top: 0;
   left: 0;
@@ -156,61 +152,58 @@ header ul li a:hover{
 }
 
 footer {
-	position: fixed;
-	width: 100%;
-	left: 0;
-	bottom: 0;
-	background-color: #ff0037;
-	color: white;
-	text-align: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #ff0037;
+  color: white;
+  text-align: center;
 }
 
-footer a{
-text-decoration: none;
-color: white;
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
-.colourchange{
+.colourchange {
   animation: colorchange 2s infinite;
 }
-@keyframes colorchange{
-  0%{
+@keyframes colorchange {
+  0% {
     color: #ffbb00;
   }
-  
-  100%{
+
+  100% {
     color: #ff0000;
   }
 }
-@media (max-width: 991px){
-  .banner{
+@media (max-width: 991px) {
+  .banner {
     grid-template-columns: 1fr;
   }
-  header{
+  header {
     padding: 20px 40px;
   }
-  .content{
+  .content {
     padding: 40px;
   }
-  .banner .box.content{
+  .banner .box.content {
     height: 70vh;
   }
-  .banner .box.images{
+  .banner .box.images {
     height: auto;
   }
 }
 
-
-
-
-@media (max-width: 600px){
-  .content h2{
-  font-size: 3em;
-  align-self: center;
+@media (max-width: 600px) {
+  .content h2 {
+    font-size: 3em;
+    align-self: center;
   }
-  .images .imgBx{
-  position: relative;
-  width: 100%;
-  height: 40vh;
-}
+  .images .imgBx {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+  }
 }
