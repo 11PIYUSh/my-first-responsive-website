@@ -12,15 +12,16 @@ body {
   height: 100vh;
 }
 .about-left {
-  background: #f08080;
+  background: #04caec;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  border-radius: 5%;
 }
 .about-left-content > div {
-  background: #f08080;
+  background: #04caec;
   padding: 4rem 4rem 2.5rem 5rem;
   text-align: center;
 }
@@ -90,7 +91,7 @@ body {
 }
 .icons li {
   list-style-type: none;
-  background: #f08080;
+  background: #04caec;
   color: #fff;
   width: 40px;
   height: 40px;
